@@ -13,7 +13,7 @@ $asset->addJs(SITE_TEMPLATE_PATH . '/js/script.js');
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=925">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <?php $APPLICATION->ShowHead() ?>
@@ -46,7 +46,8 @@ $asset->addJs(SITE_TEMPLATE_PATH . '/js/script.js');
                             </button>
                         </a>
                     </div>
-                    <div class="header__but header__but2"><a href="#">
+                    <div class="header__but header__but2">
+                        <a href="#">
                             <button class="header__button">
                                 <? $APPLICATION->IncludeComponent("bitrix:main.include", "", array(
                                         "AREA_FILE_SHOW" => "file",

@@ -16,7 +16,7 @@
 
     <?if ($arItem["DEPTH_LEVEL"] == 1):?>
     <li class="header__li"><a class="header__a" href="<?=$arItem["LINK"]?>"><button class="header__li-button"><?= $arItem["TEXT"] ?></button></a>
-        <ul>
+        <ul class="header__ab-ul">
             <?else:?>
             <li><a href="<?=$arItem["LINK"]?>" class="parent"><?=$arItem["TEXT"]?></a>
                 <ul>

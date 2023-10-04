@@ -5,7 +5,8 @@ $APPLICATION->SetTitle("Главная");
     <div class="container">
         <div class="content">
             <div class="content__cards">
-                <div class="content__card">
+                <div class="content__card content__card2">
+                    <div class="content__card-bg"></div>
                     <div class="content__card-img">
                         <? $APPLICATION->IncludeComponent("bitrix:main.include", "", array(
                                 "AREA_FILE_SHOW" => "file",
@@ -35,7 +36,9 @@ $APPLICATION->SetTitle("Главная");
                         </a></div>
                 </div>
                 <div class="content__bg"></div>
+                <div class="content__bg2"></div>
                 <div class="content__card">
+                    <div class="content__card-bg2"></div>
                     <div class="content__card-img2">
                         <? $APPLICATION->IncludeComponent("bitrix:main.include", "", array(
                                 "AREA_FILE_SHOW" => "file",
